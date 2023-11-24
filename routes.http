@@ -1,23 +1,23 @@
 
-post http://localhost:3000/videos
+post https://node-api-videos-5d9d.onrender.com/videos
 Content-Type: application/json
 
 {
-    "title": "thales",
-    "description": "dias",
+    "title": "title 1",
+    "description": "descrição 1",
     "duration": 11
 }
 
 ###
-get http://localhost:3000/videos
+get https://node-api-videos-5d9d.onrender.com/videos
 ###
 
-PUT  http://localhost:3000/videos/d12204f2-e68e-4f97-af09-dd0bd3cd306a
+PUT  http://localhost:3000/videos/6f7c1156-166b-4431-acce-ed17da071507
 Content-Type: application/json
 
 {
-    "title": "cheed?",
-    "description": "1111se11 na saso ",
+    "title": "title 2",
+    "description": "descrição 2? ",
     "duration": 3215
     }
 

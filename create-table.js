@@ -8,4 +8,4 @@ sql`
     title VARCHAR(100),
     description TEXT,
     duration INTEGER ); `
-    .then(()=> console.log('on'))
+    .then(()=> console.log('tabela criada'))
