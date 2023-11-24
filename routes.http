@@ -3,8 +3,8 @@ post https://node-api-videos-5d9d.onrender.com/videos
 Content-Type: application/json
 
 {
-    "title": "title 1",
-    "description": "descrição 1",
+    "title": "teste remoto 1",
+    "description": "descrição  remota 1",
     "duration": 11
 }
 
@@ -12,17 +12,17 @@ Content-Type: application/json
 get https://node-api-videos-5d9d.onrender.com/videos
 ###
 
-PUT  http://localhost:3000/videos/6f7c1156-166b-4431-acce-ed17da071507
+PUT  https://node-api-videos-5d9d.onrender.com/videos/idperso
 Content-Type: application/json
 
 {
-    "title": "title 2",
-    "description": "descrição 2? ",
-    "duration": 3215
+    "title": "id manual",
+    "description": "tre 2? ",
+    "duration": 1
     }
 
 ###
-DELETE http://localhost:3000/videos/2dee6bf7-0522-4636-8270-97957bf7a79a
+DELETE https://node-api-videos-5d9d.onrender.com/videos/cb47c6ac-8f08-4ff9-87e9-2ead84340e9d
 
 ###
-DELETE http://localhost:3000/videos/delete
+DELETE https://node-api-videos-5d9d.onrender.com/videos/delete

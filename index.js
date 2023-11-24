@@ -37,7 +37,7 @@ server.put('/videos/:id', (req, reply) => {
         duration
     })
 
-    return reply.status(204)
+    return reply.status(204).send()
 })
 
 server.delete('/videos/:id', async (req, reply) => {
