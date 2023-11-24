@@ -1,0 +1,28 @@
+
+post http://localhost:3000/videos
+Content-Type: application/json
+
+{
+    "title": "thales",
+    "description": "dias",
+    "duration": 11
+}
+
+###
+get http://localhost:3000/videos
+###
+
+PUT  http://localhost:3000/videos/d12204f2-e68e-4f97-af09-dd0bd3cd306a
+Content-Type: application/json
+
+{
+    "title": "cheed?",
+    "description": "1111se11 na saso ",
+    "duration": 3215
+    }
+
+###
+DELETE http://localhost:3000/videos/2dee6bf7-0522-4636-8270-97957bf7a79a
+
+###
+DELETE http://localhost:3000/videos/delete
